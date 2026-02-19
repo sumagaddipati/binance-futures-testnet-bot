@@ -26,6 +26,7 @@ This project is intended as a technical assessment and focuses on correctness, s
 trading_bot/
 │
 ├── bot/
+
 │ ├── init.py
 
 │ ├── client.py # Binance Futures testnet client
@@ -37,9 +38,10 @@ trading_bot/
 │ └── logging_config.py # Logging configuration
 │
 ├── logs/
-│ └── bot.log # API request/response logs
+
+│ └── bot.log 
 │
-├── cli.py # CLI entry point
+├── cli.py 
 
 ├── requirements.txt
 
@@ -56,20 +58,25 @@ cd trading_bot
 
 ### 2. Create and activate virtual environment
 python -m venv venv
+
 Windows
 
 venv\Scripts\activate
+
 Linux / macOS
 
 source venv/bin/activate
 ### 3. Install dependencies
+
 pip install -r requirements.txt
 
 ### 4. Set Environment Variables (Binance Futures Testnet)
 Windows (PowerShell):
 
 setx BINANCE_API_KEY "your_testnet_api_key"
+
 setx BINANCE_API_SECRET "your_testnet_secret_key"
+
 Restart the terminal after setting variables.
 
 ### How to Run
