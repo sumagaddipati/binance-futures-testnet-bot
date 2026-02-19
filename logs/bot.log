@@ -1,0 +1,10 @@
+2026-02-19 21:27:17,571 | INFO | Binance Futures Testnet client initialized
+2026-02-19 21:27:17,572 | INFO | CLI started
+2026-02-19 21:27:17,896 | INFO | Leverage set to 10x for BTCUSDT
+2026-02-19 21:27:17,897 | INFO | Order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002, 'recvWindow': 20000}
+2026-02-19 21:27:18,379 | INFO | Order response: {'orderId': 12394615565, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': '4m4tthThfgELcczWQcqsGv', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1771516668615}
+2026-02-19 21:27:26,844 | INFO | Binance Futures Testnet client initialized
+2026-02-19 21:27:26,845 | INFO | CLI started
+2026-02-19 21:27:27,208 | INFO | Leverage set to 10x for BTCUSDT
+2026-02-19 21:27:27,208 | INFO | Order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.002, 'price': 60000.0, 'timeInForce': 'GTC', 'recvWindow': 20000}
+2026-02-19 21:27:27,378 | INFO | Order response: {'orderId': 12394618497, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'XdKKTs9yrS52P4yew0MH8m', 'price': '60000.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1771516677716}
