@@ -24,6 +24,7 @@ This project is intended as a technical assessment and focuses on correctness, s
 ## Project Structure
 
 trading_bot/
+
 │
 ├── bot/
 
@@ -36,11 +37,13 @@ trading_bot/
 │ ├── validators.py # Input validation
 
 │ └── logging_config.py # Logging configuration
+
 │
 ├── logs/
 
 │ └── bot.log 
 │
+
 ├── cli.py 
 
 ├── requirements.txt
